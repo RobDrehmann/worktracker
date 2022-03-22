@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -12,7 +13,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+h1{
+  font-size: 4vw;
+  color:white;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +40,81 @@
     transform: rotate(360deg);
   }
 }
+.Assign{
+  margin-top: 5vh;
+  display: flex;
+  width: 80vw;
+  margin-left: 10vw;
+  border-bottom: solid;
+  border-color: white;
+  justify-content: space-between;
+  padding: .5vw;
+  height: 4vh;
+  align-items: center;
+ 
+}
+.Assign > button{
+  background-color: red;
+  width: 10vw;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  font-weight: 700;
+  height: 3vw;
+}
+.Assign > button:hover{
+  background-color:white;
+  
+  color:red ;
+  border-radius: 7px;
+  border: solid;
+  border-color: red;
+  cursor: pointer;
+  font-weight: 700;
+  
+}
+.Assign > p{
+  color: white;
+  font-size: 2vh;
+  font-weight: 600;
+
+}
+#name{
+  font-weight: 900;
+}
+input{
+  width: 22vw;
+  height: 2vw;
+  font-size: 1.5vw;
+  background-color: #282c34;
+  border: solid;
+  border-color: white;
+  color: white;
+  
+  
+}
+ .addone > button{
+  background-color: green;
+  width: 10vw;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  font-weight: 700;
+  height: 3vw;
+  margin-left: 3vw;
+  margin-top: 1.5vh;
+}
+.addone > button:hover{
+  background-color: white;
+  width: 10vw;
+  border: solid;
+  border-color: green;
+  color: green;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: 700;
+  height: 3vw;
+  margin-left: 3vw;
+  margin-top: 1.5vh;
+}
+
